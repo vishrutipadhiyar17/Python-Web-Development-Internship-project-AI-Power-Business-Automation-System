@@ -132,7 +132,7 @@ def login_view(request):
                     'message': 'Invalid credentials'
                 }, status=401)
 
-        except Exception as e:
+        except Exception as e
             print("LOGIN ERROR:", str(e))
               # 🔥 IMPORTANT DEBUG
             return JsonResponse({
